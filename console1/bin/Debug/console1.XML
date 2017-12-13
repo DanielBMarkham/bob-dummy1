@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>console1</name></assembly>
+<members>
+<member name="T:Helpers.console1ProgramConfig">
+<summary>
+ Command-line parameters for this particular (easyam) program
+</summary>
+</member>
+<member name="T:Helpers.ConfigEntry`1">
+<summary>
+ Parameterized type to allow command-line argument processing without a lot of extra coder work
+ Instantiate the type with the type of value you want. Make a default entry in case nothing is found
+ Then call the populate method. Will pull from args and return a val and args with the found value (if any consumed)
+</summary>
+</member>
+<member name="M:Helpers.copyToDestinationDirectory(System.String,System.String)">
+<summary>
+ OS-independent file copy from one place to another. Uses shell.
+</summary>
+</member>
+<member name="P:Helpers.isLinuxFileSystem">
+<summary>
+ Are we running on linux?
+</summary>
+</member>
+</members>
+</doc>
